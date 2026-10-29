@@ -15,7 +15,7 @@ To protect data integrity from application-layer flaws or network dropouts, ever
 
 | Domain Owner | Schema | Primary Responsibilities | Core Data Entities |
 | :--- | :--- | :--- | :--- |
-| **Persona A: Corporate Clearing team** | `TRANSACT` | High-value payment processing, multi-currency corporate pooling, and external financial gateway integrations. | <ul><li>`clearing_accounts`</li><li>`wire_pool_transactions`</li></ul> |
+| **Persona A: Corporate Clearing team** | `TRANSACT` | High-value payment processing, multi-currency corporate pooling, and external financial gateway integrations. | <ul><li>`clearing_accounts`</li><li>`wire_transactions`</li></ul> |
 | **Persona B: Financial control officers** | `TRANSACT` | General Ledger (GL) balancing, End-of-Day (EOD) closures, fee income collection, and correspondent bank matching. | <ul><li>`general_ledger_entries`</li><li>`nostro_vostro_reconciliation`</li></ul> |
 | **Persona C: Risk, Compliance & Audit team** | `CUSTOMER` | Central Bank of Nigeria (CBN) regulatory, unalterable system forensic tracking, and real-time AML analysis. | <ul><li>`cbn_registry`</li><li>`aml_forensic_trail`</li></ul> |
 
