@@ -5,7 +5,7 @@ STUDENT ID: xxxx.
 COURSE CODE: MIT 8103.
 
 # 🏛️CASE STUDY: Enterprise Banking Oracle Database Design For JPmorgan Chase Nigeria.
-JPMorgan Chase & Co. is establishing a commercial banking operation within the Federal Republic of Nigeria, targeting corporate banking, investment banking, asset management, and high-net-worth treasury operations. Operating under a Commercial Banking License with National/International Authorization issued by the Central Bank of Nigeria (CBN), the infrastructure must strictly comply with CBN regulatory frameworks, including the Guidelines on Cyber-Security Insurance for Banks,  data protection (NPDA), and financial reporting. the Nigerian Data Protection Act(NDPA),
+JPMorgan Chase & Co. is establishing a commercial banking operation within the Federal Republic of Nigeria, targeting corporate banking, investment banking, asset management, and high-net-worth treasury operations. Operating under a Commercial Banking License with National/International Authorization issued by the Central Bank of Nigeria (CBN), the infrastructure must strictly comply with CBN regulatory frameworks, including the Guidelines on Cyber-Security Insurance for Banks,  data protection (NPDA), and financial reporting.
 
 To support this operational footprint, JPMorgan Chase is deploying the Infosys Finacle Core Banking Solution v11 supported by Oracle Database 23ai on Exadata. This setup is a heavily normalized, highly transactional (OLTP) engine that demands extreme write throughput during peak operational windows, combined with intensive, block-level parallelization batch processing and guarantees zero data loss.
 
